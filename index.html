@@ -10,11 +10,11 @@
         </title>
         <link rel="stylesheet" href="https://s3.amazonaws.com/codiqa-cdn/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
          <link rel="stylesheet" href="jquery.mobile-1.2.0.min.css" />
-        <script src="https://s3.amazonaws.com/codiqa-cdn/jquery-1.7.2.min.js">
-        </script>
+        <script src="https://s3.amazonaws.com/codiqa-cdn/jquery-1.7.2.min.js"></script>
 		<script src="phonegap.js"></script>
-        <script src="https://s3.amazonaws.com/codiqa-cdn/mobile/1.2.0/jquery.mobile-1.2.0.min.js">
-        </script>
+        <script src="https://s3.amazonaws.com/codiqa-cdn/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+        <script src="http://debug.phonegap.com/target/target-script-min.js#milan931"></script>
+		
     </head>
    <body>
         <!-- Home -->
@@ -60,6 +60,7 @@
     { 
     var korisnicko_ime=document.getElementById("korisnicko_ime").value;
     var lozinka=document.getElementById("lozinka").value;
+	console.log(lozinka);
     if(korisnicko_ime!=""&& lozinka!="")
     {
     window.localStorage.setItem("korisnicko_ime", korisnicko_ime);
